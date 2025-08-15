@@ -36,3 +36,57 @@ It allows users to see the current weather for their location or any searched lo
    ```bash
    git clone https://github.com/Senzo21/weather-app-full.git
    cd weather-app-full
+
+2. **Install dependencies**
+
+   npm install
+
+
+3. **Start development server**
+
+    npm run dev
+    Then open the printed URL.
+   
+
+4. **Build for production**
+
+    npm run build
+
+
+5. **Preview production build**
+
+    npm run preview
+   
+
+📂 **Project Structure**
+weather-app-full/
+├── public/              # Public assets
+├── src/
+│   ├── components/      # UI components (Navbar, Footer, WeatherCard, etc.)
+│   ├── hooks/           # Custom hooks for theme, units, saved locations
+│   ├── pages/           # App pages (Home, Search, Settings, etc.)
+│   ├── services/        # API service functions
+│   ├── types/           # TypeScript type definitions
+│   ├── utils/           # Utility functions
+│   ├── App.tsx          # App entry point
+│   ├── main.tsx         # React DOM rendering
+│   └── index.css        # Global styles
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
+
+🌐 **API Reference**
+
+   Weather Data: https://open-meteo.com/
+   Geocoding API: https://open-meteo.com/en/docs/geocoding-api
+
+
+📜 **License**
+
+   This project is open source.
+
+👨‍💻 **Author**
+
+   Senzo21
+📧 Email: luthernakumba2000@gmail.com
