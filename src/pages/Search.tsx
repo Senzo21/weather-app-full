@@ -24,6 +24,7 @@ export default function Search() {
     }
     setLoading(true);
     setStatus("");
+    setSelected(null);
     try {
       const res = await searchPlaces(q);
       setResults(res);
